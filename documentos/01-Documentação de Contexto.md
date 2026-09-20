@@ -1,42 +1,48 @@
 # Introdução
 
-A transição do ambiente escolar para a vida acadêmica traz mudanças impactantes na vida dos jovens. Segundo Oliveira e Dias (2014, p. 187), “essas mudanças podem constituir  dificuldades para os alunos, que, frequentemente, buscam auxílio na sua rede de apoio para lidar com as mesmas.”
+Hoje em dia, é comum precisar contratar alguém para realizar algum tipo de serviço, como consertos, limpeza, manutenção, aulas, serviços de beleza, entre vários outros. Porém, encontrar uma pessoa que seja realmente confiável e que tenha experiência para realizar o trabalho nem sempre é uma tarefa fácil.
 
-Dentre as dificuldades enfrentadas, observa-se a falta de recursos financeiros para à aquisição de fontes de informações e o acompanhamento dos conhecimentos necessários para o desenvolvimento acadêmico dos discentes, visto que durante a graduação os estudos são realizados de maneira mais autônoma pelos estudantes.
+Ao mesmo tempo, existem muitas pessoas que sabem realizar determinados serviços, mas têm dificuldade para encontrar clientes e conseguir novas oportunidades de trabalho. Isso acontece tanto com profissionais que já possuem experiência quanto com pessoas que estão começando e ainda não possuem uma rede de contatos ou uma forma de divulgar seu trabalho.
 
-Dessa forma, torna-se necessário cobrir essa lacuna enfrentada pelos estudantes de graduação, para que o seu aproveitamento acadêmico não seja afetado pelas adversidades citadas.
+Dessa forma, existe uma dificuldade dos dois lados: quem precisa de um serviço nem sempre consegue encontrar um profissional em quem confie, enquanto quem oferece um serviço muitas vezes não consegue encontrar pessoas interessadas em contratá-lo. O projeto busca entender melhor esse problema e as unir esses dois públicos em uma só plataforma.
 
 
 ## Problema
 
-Diante do exposto, o desafio que se busca superar com este projeto é a falta de suporte enfrentada por alunos do ensino superior no que se refere às fontes de informações e conhecimentos necessários para um bom aproveitamento acadêmico.
+No mercado, existem profissionais que possuem conhecimento e capacidade para realizar determinados serviços, mas não conseguem encontrar clientes com facilidade. Para quem está começando, essa dificuldade pode ser ainda maior, já que ainda não possui muitos clientes, avaliações ou indicações. Além disso, nem todo profissional possui uma qualificação formal, mas isso não significa necessariamente que ele não saiba realizar o serviço. Muitas pessoas aprendem uma profissão na prática ou por experiência com familiares e conhecidos, mas acabam tendo dificuldade para demonstrar suas habilidades e conseguir oportunidades.
+
+Assim, o problema envolve dois lados que possuem dificuldades diferentes, mas que dependem um do outro: pessoas que precisam encontrar profissionais confiáveis e profissionais que precisam encontrar oportunidades para trabalhar. A falta de uma conexão eficiente entre esses dois públicos pode dificultar tanto a contratação de serviços quanto a geração de renda para os profissionais.
 
 
 ## Objetivos
 
-O objetivo geral deste projeto é a criação de uma aplicação web de fácil acesso e uso que permita aos universitários a busca e troca de fontes de informações e conhecimentos entre seus colegas discentes.
+O principal objetivo do projeto é facilitar a conexão entre pessoas que precisam contratar um serviço e profissionais que estão procurando oportunidades de trabalho.
 
-Como objetivos específicos, podemos destacar:
+Para isso, o projeto busca entender as principais dificuldades enfrentadas pelos dois lados. Para quem está procurando um profissional, o objetivo é facilitar a busca por pessoas que possam realizar determinado serviço, oferecendo informações de um portfólio que ajuda na escolha e aumenta a confiança na contratação.
 
-* Oferecer uma plataforma de uso gratuito para apoiar alunos de graduação em seu desenvolvimento acadêmico;
-* Auxiliar estes alunos na troca de livros didáticos, de referência e literatura;
-* Conectar os alunos que buscam tutoria para potencializar sua aprendizagem.
+Para os profissionais, o objetivo é criar uma oportunidade para que possam divulgar seus serviços e encontrar novos clientes, independentemente de já possuírem uma grande experiência ou uma qualificação formal.
 
-
+De forma geral, o projeto pretende diminuir a dificuldade de encontrar profissionais confiáveis e, ao mesmo tempo, ajudar pessoas que possuem habilidades e conhecimentos a encontrar oportunidades para utilizar essas habilidades e gerar renda.
 
 ## Justificativa
 
-De acordo com Oliveira e Santos (2012) citado por Fialho e Sousa (2019, p. 211):
+A escolha desse problema aconteceu porque a dificuldade de encontrar trabalho e de contratar profissionais está presente no dia a dia de muitas pessoas. Muitas vezes, alguém pode saber fazer um determinado serviço, mas não consegue encontrar clientes. Da mesma forma, uma pessoa pode precisar de um serviço simples, mas não saber onde encontrar alguém confiável para realizá-lo.
 
-"A internet, prioritariamente as redes sociais, consiste em um campo que possibilita atuações diferenciadas por seus usuários. Para o público juvenil, por exemplo, as redes são mais do que um ambiente utilizado para se relacionar, pois também é espaço de aprendizado, de expressão e de troca de experiências."
+Dados do IBGE mostram que esse é um cenário relevante no Brasil. Em 2025, o país tinha aproximadamente 26,1 milhões de trabalhadores por conta própria. Além disso, a taxa anual de informalidade foi de 38,1% da população ocupada, o que representa cerca de 39,2 milhões de pessoas.
 
-Portanto, a criação de uma aplicação web para a resolução deste problema foi motivada pela presença da internet na vida dos jovens, e os fins diversos aos quais estes a utilizam.
+Esses números mostram que uma parcela significativa das pessoas trabalha por conta própria ou está inserida no mercado informal. Dentro desse grupo estão pessoas que podem oferecer diferentes tipos de serviços, mas que nem sempre possuem uma forma fácil de encontrar novos clientes ou divulgar aquilo que sabem fazer.
+
+Outro dado que chama atenção é que, no quarto trimestre de 2025, 25,3% da população ocupada trabalhava por conta própria. Isso representa uma quantidade grande de pessoas que dependem diretamente da própria capacidade de encontrar oportunidades de trabalho.
+
+Por isso, consideramos importante trabalhar com esse problema. A ideia não é apenas facilitar a contratação de serviços, mas também ajudar pessoas que possuem habilidades a encontrar oportunidades. Dessa forma, o projeto pode beneficiar tanto quem precisa contratar quanto quem precisa trabalhar.
 
 
 ## Público-Alvo
 
-Embora os desafios citados possam ocorrer desde o início da vida escolar dos estudantes, o foco deste trabalho está no público de graduação.
+O público-alvo do projeto é formado principalmente por dois grupos: pessoas que precisam contratar profissionais e pessoas que oferecem serviços.
 
-Assim, estabeleceu-se como público-alvo desta solução homens e mulheres entre 18 e 24 anos, pois além de terem maior autonomia em seus estudos, eles também enfrentam os obstáculos da transição para a vida universitária, como a necessidade de rápida adaptação, e tais mudanças podem afetar o seu desempenho acadêmico.
+O primeiro grupo é formado por pessoas que precisam encontrar alguém para realizar determinado serviço. Elas podem ter diferentes idades, profissões e níveis de conhecimento tecnológico. Uma das principais necessidades desse público é conseguir encontrar profissionais de forma simples e ter informações suficientes para decidir se aquela pessoa é confiável e adequada para realizar o serviço.
 
-Além dos alunos de graduação com o perfil citado acima, o projeto também é voltado para ex-alunos que pretendem atuar como tutores e contribuir com o aprendizado dos alunos de graduação.
+O segundo grupo é formado por profissionais que procuram oportunidades para trabalhar. Nesse grupo podem estar desde pessoas com formação e experiência profissional até pessoas que aprenderam uma atividade na prática e ainda não possuem uma qualificação formal. Esses usuários precisam de uma forma simples de apresentar suas habilidades, divulgar os serviços que realizam e encontrar possíveis clientes.
+
+Também é importante considerar que os usuários podem ter diferentes níveis de familiaridade com a tecnologia. Por isso, a solução deve ser pensada de maneira simples e fácil de entender.
