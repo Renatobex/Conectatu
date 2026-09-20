@@ -1,24 +1,27 @@
-# Vida de Estudante
+# Conectatu
 
 `Análise e Desenvolvimento de Sistemas - PUC Minas`
 
 `Desenvolvimento de aplicação web front-end`
 
-`1º semestre/2022`
+`2º semestre/2026`
 
-O objetivo geral deste projeto é a criação de uma aplicação web de fácil acesso e uso que permita aos universitários a busca e troca de fontes de informações e conhecimentos entre seus colegas discentes.
+O objetivo geral deste projeto é a criação de uma aplicação web de fácil acesso e uso que permita juntar prestadores de serviços a potenciais clientes.
 
 ## Integrantes
 
-* Anna Luiza de Angelis Souza Freitas
-* Daiane Campos Procópio
-* Fernanda Augusta de Barcelos Coura
-* Rúbia Karina Prado Costa
+* Renato de Souza Freitas
+* Lucas Vinícius Moreira da Silva
+* Luis Felipe Araujo Custodio 
+* Luis Gustavo Moreira Gomes
+* Luísa Dias Silva
+* Ana Gabriela da Silva Santana
 
-## Orientadora
 
-* Joyce Christina de Paiva Carvalho
+## Orientador
 
+* Claudiney Vander Ramos
+  
 # Documentação
 
 <ol>
@@ -33,7 +36,7 @@ O objetivo geral deste projeto é a criação de uma aplicação web de fácil a
 
 # Hospedagem
 
-A aplicação em HTML/CSS/JS é um projeto que pode ser utilizado tanto em servidores como em navegadores web. Clique <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e1-proj-web-t3-vida-de-estudante/src/paginaHome/index.html">aqui</a> para acessá-lo. 
+O sistema ainda não foi hospedado 
 
 # Código-Fonte
 
