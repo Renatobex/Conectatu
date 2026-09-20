@@ -5,22 +5,18 @@
 <table>
 <tbody>
 <tr>
-<th colspan="2">Perfil 1: Aluno </th>
+<th colspan="2">Cliente</th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
 <td width="600px">
-Aluno do ensino superior, seja educação pública ou privada. 
+Pessoas que precisam encontrar alguém para realizar determinado serviço.
 </td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
 <td>
-1. Acesso fácil e rápido a conteúdos didáticos de qualidade, sem custo adicional à sua vida acadêmica; 
-2. Utilizar ambientes digitais em que esteja familiarizado; 
-3. Conteúdos apresentados em mídias diversificadas;
-4. Possibilidade de apoio de um monitor/tutor;
-5. Exercícios de fixação com resolução. 
+Encontrar profissionais de forma simples e ter informações suficientes para decidir se aquela pessoa é confiável e adequada para realizar o serviço.
 </td>
 </tr>
 </tbody>
@@ -29,72 +25,212 @@ Aluno do ensino superior, seja educação pública ou privada.
 <table>
 <tbody>
 <tr>
-<th colspan="2">Perfil 2: Ex-aluno </th>
+<th colspan="2">Profissional</th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
 <td width="600px">
-Ex-aluno do ensino superior. 
+Profissionais que procuram oportunidades para trabalhar.
 </td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
 <td>
-1. Entender as demandas dos alunos; 
-2. Ambiente educacional para orientar e entrar em contato com os alunos.
+Apresentar suas habilidades, divulgar os serviços que realizam e encontrar possíveis clientes.
 </td>
 </tr>
 </tbody>
 </table>
 
-
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                             |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|--------------------------------------------------------------------------------|----------------------------------------|
-|Ex-aluno | ajudar estudantes de áreas diversas que estão com dificuldades nos estudos  | orientar e melhorar o desempenho acadêmico dos alunos. |
-|Aluno | participar de uma atividade extra que emita certificados  | cumprir os créditos necessários para concluir a graduação.  |
-|Aluno|acessar os materiais complementares do curso de uma maneira mais fácil  | otimizar o tempo de estudo e entender melhor o conteúdo.  |
-|Aluno | sanar dúvidas que tenho sobre as matérias do curso com outros alunos ou ex-alunos   | entender melhor as matérias e criar uma rede de contatos. |
-|Ex-aluno | auxiliar estudantes que estejam iniciando na área  | ajudar alunos que apresentem dificuldades semelhantes às que já tive. |
-|Aluno |sanar todas as dúvidas de exercícios desde o início do curso | estar apto para as avaliações do primeiro semestre e assim não enfrentar maiores dificuldades ao longo do curso. |
-|Aluno |procurar livros que me ajudem a ter melhor compreensão da matéria  | encontrar livros sobre determinadas matérias que tenham uma boa didática para iniciantes.|
-|Aluno | consultar livros bem indicados por outros alunos   | ampliar meu conhecimento e conhecer pessoas com a mesma dificuldade. |
-|Ex-aluno | compartilhar com os outros estudantes conhecimentos, e assim poder ajudar uns aos outros  | conectar com alunos e até poder formar amizades e grupos de estudos. |
-|Aluno | aprender sobre conteúdos específicos da área com exemplos práticos e em mídias diferentes  | aplicar o conhecimento na prática.  |
+<table>
+<tbody>
+<tr>
+    <td>Eu como …</td>
+    <td>… quero/desejo …</td>
+    <td>… para ....</td>
+</tr>
+<tr>
+    <td>Cliente</td>
+    <td>encontrar profissionais que realizem o serviço que preciso</td>
+    <td>conseguir contratar alguém de forma mais fácil</td>
+</tr>
+<tr>
+    <td>Cliente</td>
+    <td>visualizar informações sobre o profissional</td>
+    <td>saber se ele possui experiência com o serviço que preciso</td>
+</tr>
+<tr>
+    <td>Cliente</td>
+    <td>pesquisar profissionais por tipo de serviço</td>
+    <td>encontrar pessoas que realmente trabalham com o que estou procurando</td>
+</tr>
+<tr>
+    <td>Profissional</td>
+    <td>cadastrar os serviços que realizo</td>
+    <td>divulgar meu trabalho e encontrar possíveis clientes</td>
+</tr>
+<tr>
+    <td>Profissional</td>
+    <td>receber solicitações de pessoas interessadas no meu serviço</td>
+    <td>conseguir novas oportunidades de trabalho</td>
+</tr>
+<tr>
+    <td>Profissional</td>
+    <td>informar minha disponibilidade</td>
+    <td>evitar receber solicitações em períodos em que não posso realizar o serviço</td>
+</tr>
+</tbody>
+</table>
 
 ## Requisitos
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-01| A aplicação deve permitir ao usuário cadastrar uma conta.   | ALTA | 
-|RF-02| A aplicação deve permitir ao usuário fazer o login da sua conta.   | ALTA | 
-|RF-03| A aplicação deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar livros.    | ALTA |
-|RF-04| A aplicação deve permitir ao usuário fazer o cadastro de livros.    | ALTA |
-|RF-05| A aplicação deve permitir ao usuário disponibilizar informações das disciplinas de tutoria.  | ALTA |
-|RF-06| A aplicação deve apresentar, para cada livro, uma imagem correspondente à capa.    | BAIXA |
-|RF-07| A aplicação deve permitir ao usuário visualizar as informações sobre  o livro.    | MÉDIA |
-|RF-08| A aplicação deve permitir ao usuário visualizar os detalhes dos tutores   | MÉDIA |
-|RF-09| A aplicação deve permitir ao usuário verificar as informações registradas no cadastro na página Perfil, após fazer seu login.  | MÉDIA |
-|RF-10| A aplicação deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar disciplinas das tutorias disponíveis.  | ALTA |
-|RF-11| A aplicação deve permitir ao usuário disponibilizar informações sobre a tutoria e seu contato.  | MÉDIA |
-|RF-12| A aplicação deve apresentar o tipo de mídia do material disponível.   | BAIXA |
+<tbody>
+<table>
+
+<tr>
+    <td>ID</td>
+    <td>Descrição</td>
+    <td>Prioridade</td>
+</tr>
+<tr>
+    <td>RF-01</td>
+    <td>O sistema deve permitir que o usuário realize seu cadastro como cliente ou profissional.</td>
+    <td>Alta</td>
+</tr>
+<tr>
+    <td>RF-02</td>
+    <td>O sistema deve permitir que o profissional cadastre os serviços que oferece.</td>
+    <td>Alta</td>
+</tr>
+<tr>
+    <td>RF-03</td>
+    <td>O sistema deve permitir que o profissional cadastre suas habilidades e experiências.</td>
+    <td>Alta</td>
+</tr>
+<tr>
+    <td>RF-04</td>
+    <td>O sistema deve permitir que o cliente pesquise profissionais por tipo de serviço.</td>
+    <td>Alta</td>
+</tr>
+<tr>
+    <td>RF-05</td>
+    <td>O sistema deve permitir que o cliente visualize o perfil do profissional.</td>
+    <td>Alta</td>
+</tr>
+<tr>
+    <td>RF-06</td>
+    <td>O sistema deve permitir que o cliente consulte as avaliações de um profissional.</td>
+    <td>Alta</td>
+</tr>
+<tr>
+    <td>RF-07</td>
+    <td>O sistema deve permitir que o cliente entre em contato com um profissional.</td>
+    <td>Alta</td>
+</tr>
+<tr>
+    <td>RF-08</td>
+    <td>O sistema deve permitir que o cliente envie uma solicitação de serviço para um profissional.</td>
+    <td>Alta</td>
+</tr>
+<tr>
+    <td>RF-09</td>
+    <td>O sistema deve permitir que o profissional visualize as solicitações de serviço recebidas.</td>
+    <td>Alta</td>
+</tr>
+<tr>
+    <td>RF-10</td>
+    <td>O sistema deve permitir que o profissional aceite uma solicitação de serviço.</td>
+    <td>Alta</td>
+</tr>
+<tr>
+    <td>RF-11</td>
+    <td>O sistema deve permitir que o profissional informe sua disponibilidade para realizar serviços.</td>
+    <td>Média</td>
+</tr>
+<tr>
+    <td>RF-12</td>
+    <td>O sistema deve permitir que o cliente avalie o profissional após a realização do serviço.</td>
+    <td>Média</td>
+</tr>
+<tr>
+    <td>RF-13</td>
+    <td>O sistema deve permitir que o profissional atualize suas informações cadastrais.</td>
+    <td>Média</td>
+</tr>
+<tr>
+    <td>RF-14</td>
+    <td>O sistema deve permitir que o profissional atualize os serviços que oferece.</td>
+    <td>Média</td>
+</tr>
+<tr>
+    <td>RF-15</td>
+    <td>O sistema deve permitir que o profissional recuse uma solicitação de serviço.</td>
+    <td>Média</td>
+</tr>
+
+</tbody>
+</table>
 
 **Prioridade: Alta / Média / Baixa.  
 
 ### Requisitos Não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-01| A aplicação deve ser publicada em um ambiente acessível público na Internet.  | ALTA | 
-|RNF-02| A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.  | ALTA | 
-|RNF-03| A aplicação deve ter bom nível de contraste entre os elementos da tela.  | MÉDIA | 
-|RNF-04| A aplicação deve ser compatível com os navegadores O site deve ser compatível com os principais navegadores do mercado: Google Chrome, Firefox e Microsoft Edge.  | ALTA | 
+<tbody>
+<table>
 
+<tr>
+    <td>ID</td>
+    <td>Descrição</td>
+    <td>Prioridade</td>
+</tr>
+<tr>
+    <td>RNF-01</td>
+    <td>O sistema deve possuir uma interface simples e fácil de utilizar.</td>
+    <td>Alta</td>
+</tr>
+<tr>
+    <td>RNF-02</td>
+    <td>O sistema deve ser compatível com dispositivos móveis e computadores.</td>
+    <td>Alta</td>
+</tr>
+<tr>
+    <td>RNF-03</td>
+    <td>O sistema deve proteger os dados pessoais dos usuários contra acessos não autorizados.</td>
+    <td>Alta</td>
+</tr>
+<tr>
+    <td>RNF-04</td>
+    <td>O sistema deve armazenar os dados dos usuários de forma segura.</td>
+    <td>Alta</td>
+</tr>
+<tr>
+    <td>RNF-05</td>
+    <td>O sistema deve apresentar mensagens claras para informar erros ou problemas durante a utilização.</td>
+    <td>Média</td>
+</tr>
+<tr>
+    <td>RNF-06</td>
+    <td>O sistema deve apresentar tempo de resposta adequado nas principais operações realizadas pelos usuários.</td>
+    <td>Alta</td>
+</tr>
+<tr>
+    <td>RNF-07</td>
+    <td>O sistema deve organizar as informações de forma clara e legível.</td>
+    <td>Alta</td>
+</tr>
+<tr>
+    <td>RNF-08</td>
+    <td>O sistema deve estar disponível para utilização, exceto durante períodos de manutenção.</td>
+    <td>Média</td>
+</tr>
 
+</tbody>
+</table>
 **Prioridade: Alta / Média / Baixa.
 
